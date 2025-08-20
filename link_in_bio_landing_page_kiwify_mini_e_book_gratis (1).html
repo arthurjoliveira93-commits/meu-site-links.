@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Seus Cursos & eBooks | Link em um só lugar</title>
+  <meta name="description" content="Todos os seus cursos e eBooks da Kiwify + mini eBook grátis em uma página rápida e responsiva." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { color-scheme: dark; }
+    body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, 'Helvetica Neue', Arial, 'Apple Color Emoji', 'Segoe UI Emoji'; }
+    .glass { background: rgba(255,255,255,0.06); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.08); }
+    .grad { background-image: linear-gradient(135deg, #6366f1, #a855f7, #ec4899); }
+  </style>
+</head>
+<body class="bg-neutral-950 text-white">
+  <!-- HEADER -->
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-neutral-950/70 backdrop-blur">
+    <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
+      <div class="flex items-center gap-3">
+        <div class="h-8 w-8 rounded-xl grad"></div>
+        <span class="text-lg font-extrabold">SeuNome</span>
+      </div>
+      <nav class="hidden gap-6 md:flex text-sm text-white/80">
+        <a href="#produtos" class="hover:text-white">Produtos</a>
+        <a href="#gratis" class="hover:text-white">Mini eBook Grátis</a>
+        <a href="#duvidas" class="hover:text-white">Dúvidas</a>
+      </nav>
+      <a href="#produtos" class="rounded-xl bg-white px-4 py-2 text-sm font-semibold text-neutral-900 hover:bg-white/90">Ver ofertas</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10 grad opacity-20"></div>
+    <div class="mx-auto grid max-w-5xl grid-cols-1 items-center gap-8 px-4 py-16 md:grid-cols-2 md:py-24">
+      <div>
+        <span class="inline-block rounded-full bg-white/10 px-3 py-1 text-xs">Cursos & eBooks que geram resultado</span>
+        <h1 class="mt-4 text-4xl font-extrabold tracking-tight md:text-5xl">Todos os seus <span class="bg-gradient-to-r from-indigo-400 to-pink-400 bg-clip-text text-transparent">links em um só lugar</span></h1>
+        <p class="mt-4 text-white/80">Reúna seus eBooks e cursos da Kiwify e ofereça um <strong>mini eBook grátis</strong> para captar leads e vender mais.</p>
+        <div class="mt-6 flex flex-wrap items-center gap-3">
+          <a href="#gratis" class="rounded-xl bg-white px-5 py-3 text-sm font-semibold text-neutral-900 hover:bg-white/90">Baixar mini eBook grátis</a>
+          <a href="#produtos" class="rounded-xl border border-white/20 px-5 py-3 text-sm font-semibold hover:bg-white/10">Ver todos os produtos</a>
+        </div>
+      </div>
+      <div class="glass rounded-2xl p-6">
+        <p class="text-sm text-white/70">Destaque</p>
+        <h3 class="mt-2 text-2xl font-bold">Oferta da Semana</h3>
+        <p class="mt-2 text-white/80">Métodos de Vender eBooks – aprenda a criar, lançar e escalar vendas no piloto quase automático.</p>
+        <a href="https://pay.kiwify.com.br/SEU-LINK-1" class="mt-4 inline-flex w-full items-center justify-center rounded-xl bg-indigo-500 px-4 py-3 text-sm font-semibold hover:bg-indigo-400">Quero acessar agora</a>
+        <ul class="mt-4 grid grid-cols-2 gap-3 text-xs text-white/70">
+          <li class="glass rounded-xl p-3">Acesso imediato</li>
+          <li class="glass rounded-xl p-3">Atualizações grátis</li>
+          <li class="glass rounded-xl p-3">Passo a passo</li>
+          <li class="glass rounded-xl p-3">Suporte básico</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUTOS -->
+  <section id="produtos" class="mx-auto max-w-5xl px-4 py-14">
+    <div class="mb-8 flex items-end justify-between">
+      <div>
+        <h2 class="text-3xl font-extrabold">Seus Produtos</h2>
+        <p class="mt-1 text-white/70 text-sm">Substitua os links abaixo pelos links de pagamento da Kiwify.</p>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+      <!-- Product 1 -->
+      <article class="glass rounded-2xl p-5">
+        <span class="inline-block rounded-full bg-indigo-500/20 px-3 py-1 text-xs text-indigo-300">Mais vendido</span>
+        <h3 class="mt-3 text-xl font-bold">Métodos de Vender eBooks</h3>
+        <p class="mt-2 text-sm text-white/80">Crie, lance e venda eBooks todos os dias com estratégia.</p>
+        <p class="mt-3 text-lg font-extrabold">R$ 79,90</p>
+        <a href="https://pay.kiwify.com.br/SEU-LINK-1" class="mt-4 inline-flex w-full items-center justify-center rounded-xl bg-white px-4 py-3 text-sm font-semibold text-neutral-900 hover:bg-white/90">Comprar agora</a>
+      </article>
+      <!-- Product 2 -->
+      <article class="glass rounded-2xl p-5">
+        <span class="inline-block rounded-full bg-pink-500/20 px-3 py-1 text-xs text-pink-300">Novo</span>
+        <h3 class="mt-3 text-xl font-bold">Marketing de Afiliados Express</h3>
+        <p class="mt-2 text-sm text-white/80">Táticas simples e comprovadas para vender como afiliado.</p>
+        <p class="mt-3 text-lg font-extrabold">R$ 97,00</p>
+        <a href="https://pay.kiwify.com.br/SEU-LINK-2" class="mt-4 inline-flex w-full items-center justify-center rounded-xl bg-white px-4 py-3 text-sm font-semibold text-neutral-900 hover:bg-white/90">Comprar agora</a>
+      </article>
+      <!-- Product 3 -->
+      <article class="glass rounded-2xl p-5">
+        <span class="inline-block rounded-full bg-fuchsia-500/20 px-3 py-1 text-xs text-fuchsia-300">Favorito</span>
+        <h3 class="mt-3 text-xl font-bold">Conteúdo que Vende (Vídeos & Reels)</h3>
+        <p class="mt-2 text-sm text-white/80">Roteiros e templates para aumentar retenção e conversão.</p>
+        <p class="mt-3 text-lg font-extrabold">R$ 59,00</p>
+        <a href="https://pay.kiwify.com.br/SEU-LINK-3" class="mt-4 inline-flex w-full items-center justify-center rounded-xl bg-white px-4 py-3 text-sm font-semibold text-neutral-900 hover:bg-white/90">Comprar agora</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- MINI EBOOK GRÁTIS / LEAD MAGNET -->
+  <section id="gratis" class="relative">
+    <div class="absolute inset-0 -z-10 grad opacity-10"></div>
+    <div class="mx-auto max-w-5xl px-4 py-16">
+      <div class="glass rounded-2xl p-6 md:p-10">
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+          <div>
+            <h2 class="text-3xl font-extrabold">Mini eBook Grátis</h2>
+            <p class="mt-2 text-white/80">Ofereça um conteúdo curto e direto para atrair novos seguidores e leads. Depois, convide a pessoa a conhecer seus produtos.</p>
+            <ul class="mt-4 list-disc space-y-1 pl-5 text-sm text-white/70">
+              <li>Formato PDF (5–12 páginas)</li>
+              <li>Ação prática em 1 dia</li>
+              <li>Inclua CTA para seus cursos</li>
+            </ul>
+          </div>
+          <div class="space-y-3">
+            <!-- Opção A: link direto para o PDF -->
+            <a href="/arquivos/mini-ebook-gratis.pdf" class="block w-full rounded-xl bg-white px-5 py-3 text-center text-sm font-semibold text-neutral-900 hover:bg-white/90">Baixar agora (PDF)</a>
+            <!-- Opção B: captar via WhatsApp -->
+            <a href="https://wa.me/5599999999999?text=Quero%20o%20mini%20eBook%20gr%C3%A1tis" class="block w-full rounded-xl border border-white/20 px-5 py-3 text-center text-sm font-semibold hover:bg-white/10">Receber no WhatsApp</a>
+            <!-- Opção C: captar via e-mail (mailto) -->
+            <a href="mailto:seuemail@dominio.com?subject=Quero%20o%20mini%20eBook%20gr%C3%A1tis&body=Oi!%20Me%20envia%20o%20mini%20eBook%20gr%C3%A1tis%2C%20por%20favor." class="block w-full rounded-xl border border-white/20 px-5 py-3 text-center text-sm font-semibold hover:bg-white/10">Receber por e‑mail</a>
+            <p class="text-xs text-white/60">Dica: hospede o PDF na mesma pasta deste site (em <code>/arquivos/</code>) ou em um serviço como Google Drive (link público).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="duvidas" class="mx-auto max-w-5xl px-4 pb-16">
+    <h2 class="text-3xl font-extrabold">Dúvidas frequentes</h2>
+    <div class="mt-6 space-y-3">
+      <details class="glass rounded-xl p-4">
+        <summary class="cursor-pointer text-sm font-semibold">Como eu edito os links?</summary>
+        <p class="mt-2 text-sm text-white/80">Procure no código pelos trechos <code>https://pay.kiwify.com.br/SEU-LINK-1</code>, <code>SEU-LINK-2</code> e <code>SEU-LINK-3</code> e substitua pelos seus links de pagamento Kiwify. Também altere o número do WhatsApp e o e‑mail.</p>
+      </details>
+      <details class="glass rounded-xl p-4">
+        <summary class="cursor-pointer text-sm font-semibold">Posso usar como link da bio?</summary>
+        <p class="mt-2 text-sm text-white/80">Sim! Publique este arquivo e use a URL como seu link principal no Instagram, TikTok e YouTube.</p>
+      </details>
+      <details class="glass rounded-xl p-4">
+        <summary class="cursor-pointer text-sm font-semibold">Como hospedar de graça?</summary>
+        <p class="mt-2 text-sm text-white/80">Use GitHub Pages, Netlify ou Vercel. É só enviar este arquivo HTML (e a pasta <code>/arquivos</code> com o PDF) e publicar.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/10">
+    <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-8 text-sm text-white/60">
+      <p>© <span id="year"></span> SeuNome. Todos os direitos reservados.</p>
+      <div class="flex items-center gap-3">
+        <a href="https://instagram.com/seuusuario" class="hover:text-white">Instagram</a>
+        <a href="https://youtube.com/@seucanal" class="hover:text-white">YouTube</a>
+        <a href="https://wa.me/5599999999999" class="hover:text-white">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
